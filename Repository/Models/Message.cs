@@ -31,7 +31,7 @@ public partial class Message
 
     public virtual Message? ReplyTo { get; set; }
 
-    public virtual Room Room { get; set; } = null!;
+    public virtual Room? Room { get; set; } = null!;
 
-    public virtual User User { get; set; } = null!;
+    public virtual User? User { get; set; } = null!;
 }

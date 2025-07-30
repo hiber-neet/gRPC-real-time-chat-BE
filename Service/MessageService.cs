@@ -30,6 +30,31 @@ namespace Service
                 .Where(m => m.RoomId == roomId)
                 .ToListAsync();
         }
-    }
+
+		public async Task<Message?> UpdateMessageAsync(int id, string newContent)
+		{
+			var msg = await _context.Messages.FindAsync(id);
+			if (msg == null) return null;
+
+			msg.Content = newContent;
+			msg.IsEdited = true;
+			msg.UpdatedAt = DateTime.Now;
+
+			await _context.SaveChangesAsync();
+			return msg;
+		}
+
+		public async Task<bool> DeleteMessageAsync(int id)
+		{
+			var msg = await _context.Messages.FindAsync(id);
+			if (msg == null) return false;
+
+			msg.IsDeleted = true;
+			msg.UpdatedAt = DateTime.Now;
+
+			await _context.SaveChangesAsync();
+			return true;
+		}
+	}
 
 }
