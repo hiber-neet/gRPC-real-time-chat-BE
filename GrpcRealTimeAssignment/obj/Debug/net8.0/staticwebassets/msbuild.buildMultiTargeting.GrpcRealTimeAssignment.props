@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\GrpcRealTimeAssignment.props" />
-</Project>

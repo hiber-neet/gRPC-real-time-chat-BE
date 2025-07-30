@@ -15,7 +15,7 @@ message ChatMessage {
   string user = 1;
   string text = 2;
   string timestamp = 3;
-  int32 roomId = 4;
+  
 }
 
 message SendReply {

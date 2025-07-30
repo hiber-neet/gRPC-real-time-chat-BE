@@ -22,7 +22,7 @@ namespace GrpcRealTimeAssignment.Services
         {
             _clients[request.Username] = responseStream;
 
-            await BroadcastMessage($"{request.Username} joined the chat.", "System", 0);
+            await BroadcastMessage($"{request.Username} joined the chat.", "System");
 
             try
             {
@@ -34,26 +34,20 @@ namespace GrpcRealTimeAssignment.Services
             finally
             {
                 _clients.TryRemove(request.Username, out _);
-                await BroadcastMessage($"{request.Username} left the chat.", "System", 0);
+                await BroadcastMessage($"{request.Username} left the chat.", "System");
             }
         }
 
         public override async Task<SendReply> SendMessage(ChatMessage request, ServerCallContext context)
         {
             var now = DateTime.Now;
-
-            // Lấy UserId từ username
-            var user = _context.Users.FirstOrDefault(u => u.Username == request.User);
-            if (user == null)
-            {
-                return new SendReply { Success = false };
-            }
+         
 
             // Tạo entity Message
             var message = new Message
             {
-                RoomId = request.RoomId,
-                UserId = user.Id,
+                RoomId = 1,
+                UserId = 1,
                 Content = request.Text,
                 MessageType = "text",
                 CreatedAt = now,
@@ -62,20 +56,20 @@ namespace GrpcRealTimeAssignment.Services
             };
 
             
-
+            
             // Broadcast về client
-            await BroadcastMessage(request.Text, request.User, request.RoomId, now);
+            await BroadcastMessage(request.Text, request.User, now);
+            await _messageService.SendMessageAsync(message);
 
             return new SendReply { Success = true };
         }
 
-        private async Task BroadcastMessage(string text, string user, int roomId, DateTime? time = null)
+        private async Task BroadcastMessage(string text, string user, DateTime? time = null)
         {
             var message = new ChatMessage
             {
                 User = user,
-                Text = text,
-                RoomId = 1,
+                Text = text,             
                 Timestamp = (time ?? DateTime.Now).ToString("HH:mm:ss")
             };
 

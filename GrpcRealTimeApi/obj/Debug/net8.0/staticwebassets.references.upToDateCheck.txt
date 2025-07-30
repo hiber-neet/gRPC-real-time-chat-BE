@@ -1,2 +1,0 @@
-D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\obj\Debug\net8.0\staticwebassets.build.json
-D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\obj\Debug\net8.0\staticwebassets.build.json
