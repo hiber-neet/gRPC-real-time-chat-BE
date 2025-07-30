@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\service\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|solutionrelative:service\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\controller\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\controller\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\service\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|solutionrelative:service\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\controller\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\controller\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\service\\membershipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|solutionrelative:service\\membershipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\protos\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\protos\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\controller\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\controller\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|solutionrelative:service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}|Service\\Service.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1C47BA-FFAE-49E1-85CE-DAEEB7F5C77B}|Repository\\Repository.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1C47BA-FFAE-49E1-85CE-DAEEB7F5C77B}|Repository\\Repository.csproj|solutionrelative:repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\grpcrealtimeassignment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,46 +66,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Services\\ChatService.cs",
-              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Services\\ChatService.cs",
-              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Services\\ChatService.cs",
-              "RelativeToolTip": "GrpcRealTimeAssignment\\Services\\ChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "Service\\FileUploadService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\FileUploadService.cs",
+              "RelativeToolTip": "Service\\FileUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:55:26.79Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-07-30T15:13:08.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "chat.proto",
-              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Protos\\chat.proto",
-              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Protos\\chat.proto",
-              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Protos\\chat.proto",
-              "RelativeToolTip": "GrpcRealTimeAssignment\\Protos\\chat.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-07-27T09:39:58.935Z",
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\MessageController.cs",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Controller\\MessageController.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\MessageController.cs",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Controller\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:12:47.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GrpcRealTimeAssignment",
-              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
-              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
-              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
-              "RelativeToolTip": "GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-27T09:32:26.215Z",
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\MessageService.cs",
+              "RelativeDocumentMoniker": "Service\\MessageService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\MessageService.cs",
+              "RelativeToolTip": "Service\\MessageService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:12:25.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\MembershipController.cs",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Controller\\MembershipController.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\MembershipController.cs",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Controller\\MembershipController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:12:02.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MembershipService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\MembershipService.cs",
+              "RelativeDocumentMoniker": "Service\\MembershipService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\MembershipService.cs",
+              "RelativeToolTip": "Service\\MembershipService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:11:36.185Z",
               "EditorCaption": ""
             },
             {
@@ -76,9 +141,113 @@
               "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Program.cs",
               "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Program.cs",
               "RelativeToolTip": "GrpcRealTimeAssignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T08:54:27.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Services\\ChatService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Services\\ChatService.cs",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Services\\ChatService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:11:06.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\RoomController.cs",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Controller\\RoomController.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\RoomController.cs",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Controller\\RoomController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:10:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\RoomService.cs",
+              "RelativeDocumentMoniker": "Service\\RoomService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\RoomService.cs",
+              "RelativeToolTip": "Service\\RoomService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:10:19.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Controller\\UserController.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Controller\\UserController.cs",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Controller\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:06:16.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:03:53.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Repository\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\User.cs",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Repository\\Models\\User.cs",
+              "RelativeToolTip": "Repository\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:59:56.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\appsettings.json",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\appsettings.json",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\appsettings.json",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T14:29:29.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GrpcRealTimeAssignment.csproj",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-27T09:32:26.215Z",
               "EditorCaption": ""
             }
           ]

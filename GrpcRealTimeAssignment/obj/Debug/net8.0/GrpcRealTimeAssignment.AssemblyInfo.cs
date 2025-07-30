@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcRealTimeAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aebe28717a1a3d1c57cb6d962a226501f6c81fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcRealTimeAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcRealTimeAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
