@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.MembershipController",
+    "Method": "Join",
+    "RelativePath": "api/Membership/join",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "Repository.Models.Membership",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.MessageController",
+    "Method": "Send",
+    "RelativePath": "api/Message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "msg",
+        "Type": "Repository.Models.Message",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.MessageController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Message/{roomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.RoomController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.RoomController",
+    "Method": "CreateRoom",
+    "RelativePath": "api/Room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "room",
+        "Type": "Repository.Models.Room",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Repository.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GrpcRealTimeAssignment.Controller.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Repository.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

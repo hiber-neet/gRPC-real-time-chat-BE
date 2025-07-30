@@ -1,5 +1,7 @@
 using GrpcRealTimeAssignment.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Repository.Models;
 using Service;
 using System.Text.Json.Serialization;
 
@@ -35,6 +37,8 @@ namespace GrpcRealTimeAssignment
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Handbag API", Version = "v1" });
             });
+            builder.Services.AddDbContext<ChatApplicationDbContext>(options =>
+    options.UseSqlServer("DefaultConnection"));
             builder.Services.AddScoped<UserService>();
             builder.Services.AddScoped<RoomService>();
             builder.Services.AddScoped<MembershipService>();

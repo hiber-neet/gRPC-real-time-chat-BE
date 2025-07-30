@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcRealTimeApi", "GrpcRealTimeApi\GrpcRealTimeApi.csproj", "{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07358C9-CF3E-4EBF-A12C-8FFEB9EA1DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

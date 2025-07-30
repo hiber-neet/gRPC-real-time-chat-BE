@@ -25,16 +25,17 @@ namespace GrpcRealTimeAssignment {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChFQcm90b3MvY2hhdC5wcm90byIfCgtKb2luUmVxdWVzdBIQCgh1c2VybmFt",
-            "ZRgBIAEoCSI8CgtDaGF0TWVzc2FnZRIMCgR1c2VyGAEgASgJEgwKBHRleHQY",
-            "AiABKAkSEQoJdGltZXN0YW1wGAMgASgJIhwKCVNlbmRSZXBseRIPCgdzdWNj",
-            "ZXNzGAEgASgIMlkKBENoYXQSKAoISm9pbkNoYXQSDC5Kb2luUmVxdWVzdBoM",
-            "LkNoYXRNZXNzYWdlMAESJwoLU2VuZE1lc3NhZ2USDC5DaGF0TWVzc2FnZRoK",
-            "LlNlbmRSZXBseUIZqgIWR3JwY1JlYWxUaW1lQXNzaWdubWVudGIGcHJvdG8z"));
+            "ZRgBIAEoCSJMCgtDaGF0TWVzc2FnZRIMCgR1c2VyGAEgASgJEgwKBHRleHQY",
+            "AiABKAkSEQoJdGltZXN0YW1wGAMgASgJEg4KBnJvb21JZBgEIAEoBSIcCglT",
+            "ZW5kUmVwbHkSDwoHc3VjY2VzcxgBIAEoCDJZCgRDaGF0EigKCEpvaW5DaGF0",
+            "EgwuSm9pblJlcXVlc3QaDC5DaGF0TWVzc2FnZTABEicKC1NlbmRNZXNzYWdl",
+            "EgwuQ2hhdE1lc3NhZ2UaCi5TZW5kUmVwbHlCGaoCFkdycGNSZWFsVGltZUFz",
+            "c2lnbm1lbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcRealTimeAssignment.JoinRequest), global::GrpcRealTimeAssignment.JoinRequest.Parser, new[]{ "Username" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcRealTimeAssignment.ChatMessage), global::GrpcRealTimeAssignment.ChatMessage.Parser, new[]{ "User", "Text", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcRealTimeAssignment.ChatMessage), global::GrpcRealTimeAssignment.ChatMessage.Parser, new[]{ "User", "Text", "Timestamp", "RoomId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcRealTimeAssignment.SendReply), global::GrpcRealTimeAssignment.SendReply.Parser, new[]{ "Success" }, null, null, null, null)
           }));
     }
@@ -268,6 +269,7 @@ namespace GrpcRealTimeAssignment {
       user_ = other.user_;
       text_ = other.text_;
       timestamp_ = other.timestamp_;
+      roomId_ = other.roomId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -313,6 +315,18 @@ namespace GrpcRealTimeAssignment {
       }
     }
 
+    /// <summary>Field number for the "roomId" field.</summary>
+    public const int RoomIdFieldNumber = 4;
+    private int roomId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int RoomId {
+      get { return roomId_; }
+      set {
+        roomId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -331,6 +345,7 @@ namespace GrpcRealTimeAssignment {
       if (User != other.User) return false;
       if (Text != other.Text) return false;
       if (Timestamp != other.Timestamp) return false;
+      if (RoomId != other.RoomId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -341,6 +356,7 @@ namespace GrpcRealTimeAssignment {
       if (User.Length != 0) hash ^= User.GetHashCode();
       if (Text.Length != 0) hash ^= Text.GetHashCode();
       if (Timestamp.Length != 0) hash ^= Timestamp.GetHashCode();
+      if (RoomId != 0) hash ^= RoomId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -371,6 +387,10 @@ namespace GrpcRealTimeAssignment {
         output.WriteRawTag(26);
         output.WriteString(Timestamp);
       }
+      if (RoomId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(RoomId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -393,6 +413,10 @@ namespace GrpcRealTimeAssignment {
         output.WriteRawTag(26);
         output.WriteString(Timestamp);
       }
+      if (RoomId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(RoomId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -411,6 +435,9 @@ namespace GrpcRealTimeAssignment {
       }
       if (Timestamp.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Timestamp);
+      }
+      if (RoomId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RoomId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -432,6 +459,9 @@ namespace GrpcRealTimeAssignment {
       }
       if (other.Timestamp.Length != 0) {
         Timestamp = other.Timestamp;
+      }
+      if (other.RoomId != 0) {
+        RoomId = other.RoomId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -460,6 +490,10 @@ namespace GrpcRealTimeAssignment {
             Timestamp = input.ReadString();
             break;
           }
+          case 32: {
+            RoomId = input.ReadInt32();
+            break;
+          }
         }
       }
     #endif
@@ -485,6 +519,10 @@ namespace GrpcRealTimeAssignment {
           }
           case 26: {
             Timestamp = input.ReadString();
+            break;
+          }
+          case 32: {
+            RoomId = input.ReadInt32();
             break;
           }
         }

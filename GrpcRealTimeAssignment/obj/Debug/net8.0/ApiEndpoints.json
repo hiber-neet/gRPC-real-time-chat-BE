@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "GrpcRealTimeAssignment.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_2",
+    "Method": "\u003CMain\u003Eb__0_4",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -16,37 +16,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "GrpcRealTimeAssignment.Controller.UserController",
-    "Method": "Login",
-    "RelativePath": "api/User/login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "Repository.Models.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GrpcRealTimeAssignment.Controller.UserController",
-    "Method": "Register",
-    "RelativePath": "api/User/register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "Repository.Models.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]
