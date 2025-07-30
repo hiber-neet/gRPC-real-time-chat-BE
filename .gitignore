@@ -1,14 +1,27 @@
-# Ignore Visual Studio files
+# Visual Studio
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Ignore build output
+# Build Results
 bin/
 obj/
-
-# Ignore other cache files
 *.cache
-*.pdb
-*.dll
-*.exe
+*.db
+*.db-shm
+*.db-wal
+*.json
+*.backup.json
+*.txt
+*.g.props
+*.g.targets
+
+# Rider
+.idea/
+
+# Others
+*.log
+*.bak
+*.tmp
