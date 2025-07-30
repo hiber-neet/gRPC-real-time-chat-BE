@@ -192,3 +192,6 @@ D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeApi\obj\Debug\ne
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeApi\obj\Debug\net8.0\GrpcRealTimeApi.pdb
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeApi\obj\Debug\net8.0\GrpcRealTimeApi.genruntimeconfig.cache
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeApi\obj\Debug\net8.0\ref\GrpcRealTimeApi.dll
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeApi\obj\Debug\net8.0\GrpcRealTimeApi.dll
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeApi\obj\Debug\net8.0\refint\GrpcRealTimeApi.dll
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeApi\obj\Debug\net8.0\GrpcRealTimeApi.pdb

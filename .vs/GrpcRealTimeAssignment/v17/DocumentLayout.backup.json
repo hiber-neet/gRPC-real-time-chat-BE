@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|solutionrelative:grpcrealtimeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|solutionrelative:grpcrealtimeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5C11CAD-D0A6-4FC6-9261-F06F7998C9A8}|GrpcRealTimeAssignment\\GrpcRealTimeAssignment.csproj|solutionrelative:grpcrealtimeassignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeapi\\grpcrealtimeapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|solutionrelative:grpcrealtimeapi\\grpcrealtimeapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|d:\\project_prn232_assignment\\grpcrealtimeassignment\\grpcrealtimeapi\\controller\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}|GrpcRealTimeApi\\GrpcRealTimeApi.csproj|solutionrelative:grpcrealtimeapi\\controller\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "MembershipService.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\Service\\MembershipService.cs",
               "RelativeDocumentMoniker": "Service\\MembershipService.cs",
@@ -64,6 +84,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T16:39:54.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GrpcRealTimeApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GrpcRealTimeApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T16:39:24.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\appsettings.json",
+              "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\appsettings.json",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\appsettings.json",
+              "RelativeToolTip": "GrpcRealTimeAssignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T16:39:11.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\appsettings.json",
+              "RelativeDocumentMoniker": "GrpcRealTimeApi\\appsettings.json",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\appsettings.json",
+              "RelativeToolTip": "GrpcRealTimeApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T16:39:04.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GrpcRealTimeApi",
+              "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
+              "RelativeDocumentMoniker": "GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
+              "ToolTip": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
+              "RelativeToolTip": "GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T16:38:53.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MessageController.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\Controller\\MessageController.cs",
               "RelativeDocumentMoniker": "GrpcRealTimeApi\\Controller\\MessageController.cs",
@@ -76,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MembershipController.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\Controller\\MembershipController.cs",
               "RelativeDocumentMoniker": "GrpcRealTimeApi\\Controller\\MembershipController.cs",
@@ -89,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "GrpcRealTimeApi.http",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\GrpcRealTimeApi.http",
               "RelativeDocumentMoniker": "GrpcRealTimeApi\\GrpcRealTimeApi.http",
@@ -102,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "GrpcRealTimeApi",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
               "RelativeDocumentMoniker": "GrpcRealTimeApi\\GrpcRealTimeApi.csproj",
@@ -115,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeApi\\Program.cs",
               "RelativeDocumentMoniker": "GrpcRealTimeApi\\Program.cs",
@@ -128,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "chat.proto",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Protos\\chat.proto",
               "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Protos\\chat.proto",
@@ -141,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ChatService.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Services\\ChatService.cs",
@@ -153,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project_PRN232_Assignment\\GrpcRealTimeAssignment\\GrpcRealTimeAssignment\\Program.cs",
               "RelativeDocumentMoniker": "GrpcRealTimeAssignment\\Program.cs",

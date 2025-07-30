@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+bin/
+obj/
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.json
+*.backup.json
+*.txt
+*.g.props
+*.g.targets
+
+# Rider
+.idea/
+
+# Others
+*.log
+*.bak
+*.tmp

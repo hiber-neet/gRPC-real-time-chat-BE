@@ -186,3 +186,6 @@ D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\bin\D
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\bin\Debug\net8.0\Service.pdb
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\bin\Debug\net8.0\Repository.pdb
 D:\Project_PRN232_Assignment\GrpcRealTimeAssignment\GrpcRealTimeAssignment\obj\Debug\net8.0\GrpcRealTimeAssignment.MvcApplicationPartsAssemblyInfo.cs
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeAssignment\obj\Debug\net8.0\GrpcRealTimeAssignment.dll
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeAssignment\obj\Debug\net8.0\refint\GrpcRealTimeAssignment.dll
+D:\8th\PRN232\gRPC-real-time-chat-BE\GrpcRealTimeAssignment\obj\Debug\net8.0\GrpcRealTimeAssignment.pdb
