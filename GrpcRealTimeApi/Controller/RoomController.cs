@@ -26,6 +26,27 @@ namespace GrpcRealTimeAssignment.Controller
         {
             return Ok(await _roomService.CreateRoomAsync(room));
         }
-    }
+
+		[HttpGet("{id}")]
+		public async Task<IActionResult> GetRoomById(int id)
+		{
+			var room = await _roomService.GetRoomByIdAsync(id);
+			return room == null ? NotFound() : Ok(room);
+		}
+
+		[HttpPut("{id}")]
+		public async Task<IActionResult> UpdateRoom(int id, [FromBody] Room updatedRoom)
+		{
+			var result = await _roomService.UpdateRoomAsync(id, updatedRoom);
+			return result == null ? NotFound() : Ok(result);
+		}
+
+		[HttpDelete("{id}")]
+		public async Task<IActionResult> DeleteRoom(int id)
+		{
+			var success = await _roomService.DeleteRoomAsync(id);
+			return success ? NoContent() : NotFound();
+		}
+	}
 
 }
