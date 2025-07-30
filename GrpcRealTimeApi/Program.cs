@@ -38,12 +38,12 @@ namespace GrpcRealTimeApi
                     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Chat API", Version = "v1" });
                 });
 
-             
-                builder.Services.AddDbContext<ChatApplicationDbContext>(options =>
-                    options.UseSqlServer("DefaultConnection")); 
 
-             
-                builder.Services.AddScoped<UserService>();
+				builder.Services.AddDbContext<ChatApplicationDbContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+				builder.Services.AddScoped<UserService>();
                 builder.Services.AddScoped<RoomService>();
                 builder.Services.AddScoped<MembershipService>();
                 builder.Services.AddScoped<MessageService>();
