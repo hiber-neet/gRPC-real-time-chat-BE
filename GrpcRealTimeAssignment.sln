@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcRealTimeApi", "GrpcRealTimeApi\GrpcRealTimeApi.csproj", "{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7BDAE22F-3977-48CD-9965-4F21126C5DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6CBA2C3-A16F-48B7-929C-271CD314FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDAE22F-3977-48CD-9965-4F21126C5DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDAE22F-3977-48CD-9965-4F21126C5DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDAE22F-3977-48CD-9965-4F21126C5DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDAE22F-3977-48CD-9965-4F21126C5DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

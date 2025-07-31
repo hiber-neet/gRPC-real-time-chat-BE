@@ -38,7 +38,7 @@ namespace GrpcRealTimeAssignment
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Handbag API", Version = "v1" });
             });
             builder.Services.AddDbContext<ChatApplicationDbContext>(options =>
-    options.UseSqlServer("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<UserService>();
             builder.Services.AddScoped<RoomService>();
             builder.Services.AddScoped<MembershipService>();

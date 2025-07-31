@@ -1,0 +1,36 @@
+services:
+  SqlServerDb:
+    container_name: SqlServerContainer
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 20202:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Aa!12345678
+
+  grpcrealtimeapi:
+    image: ${DOCKER_REGISTRY-}grpcrealtimeapi
+    ports:
+      - 8080:8080
+    build:
+      context: .
+      dockerfile: GrpcRealTimeApi/Dockerfile
+    environment:
+    - ASPNETCORE_URLS=http://+:8080
+    restart: on-failure
+    depends_on: 
+      - SqlServerDb
+
+  grpcrealtimeassignment:
+    image: ${DOCKER_REGISTRY-}grpcrealtimeassignment
+    ports:
+      - 7227:7227
+    build:
+      context: .
+      dockerfile: GrpcRealTimeAssignment/Dockerfile
+    environment:
+    - ASPNETCORE_URLS=http://+:7227
+    restart: on-failure
+    depends_on: 
+      - SqlServerDb
+
